@@ -1,1 +1,22 @@
-./.idea
+# Ignore all target directories
+**/target/
+
+# Ignore build directories
+/build/
+/out/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore MacOS hidden files
+.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
