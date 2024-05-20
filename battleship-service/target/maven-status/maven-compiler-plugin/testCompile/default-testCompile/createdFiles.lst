@@ -1,0 +1,9 @@
+com/interview/coding/battleshipservice/service/CoordinateServiceTest.class
+com/interview/coding/battleshipservice/controller/GameControllerTest.class
+com/interview/coding/battleshipservice/service/GameServiceTest.class
+com/interview/coding/battleshipservice/service/KafkaProducerServiceTest.class
+com/interview/coding/battleshipservice/repository/GameRepositoryImplTest.class
+com/interview/coding/battleshipservice/util/ShipDeploymentBuilder.class
+com/interview/coding/battleshipservice/util/ShipDeploymentValidatorTest.class
+com/interview/coding/battleshipservice/controller/EngineeringControllerTest.class
+com/interview/coding/battleshipservice/service/FieldServiceTest.class

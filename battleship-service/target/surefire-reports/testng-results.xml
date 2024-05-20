@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-20T17:30:41 WEST" name="Surefire suite" finished-at="2024-05-20T17:30:42 WEST" duration-ms="156">
+    <groups>
+    </groups>
+    <test started-at="2024-05-20T17:30:41 WEST" name="Surefire test" finished-at="2024-05-20T17:30:42 WEST" duration-ms="156">
+      <class name="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testValidateWithDuplicatedShipType()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="testValidateWithDuplicatedShipType" finished-at="2024-05-20T17:30:42 WEST" duration-ms="2" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipDeploymentException">
+            <message>
+              <![CDATA[Ship Destroyer with coordinates [A1, B1] is not deployed correctly on the field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipDeploymentException: Ship Destroyer with coordinates [A1, B1] is not deployed correctly on the field
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.duplicatedDeployment(ShipDeploymentValidator.java:35)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.validate(ShipDeploymentValidator.java:21)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest.testValidateWithDuplicatedShipType(ShipDeploymentValidatorTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipDeploymentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateWithDuplicatedShipType -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testValidateWithIncorrectShipsNumberDeployed()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="testValidateWithIncorrectShipsNumberDeployed" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipDeploymentException">
+            <message>
+              <![CDATA[Wrong number of deployed ships: expected 5, got 4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipDeploymentException: Wrong number of deployed ships: expected 5, got 4
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.numberOfDeployedShips(ShipDeploymentValidator.java:46)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.validate(ShipDeploymentValidator.java:20)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest.testValidateWithIncorrectShipsNumberDeployed(ShipDeploymentValidatorTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipDeploymentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateWithIncorrectShipsNumberDeployed -->
+        <test-method signature="testValidateWithOverlappingShips()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="testValidateWithOverlappingShips" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipDeploymentException">
+            <message>
+              <![CDATA[Deployed ships overlap - they cannot overlap!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipDeploymentException: Deployed ships overlap - they cannot overlap!
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.shipsOverlap(ShipDeploymentValidator.java:101)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.validate(ShipDeploymentValidator.java:22)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest.testValidateWithOverlappingShips(ShipDeploymentValidatorTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipDeploymentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateWithOverlappingShips -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testValidateWithShipOutOfGrid()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="testValidateWithShipOutOfGrid" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipDeploymentException">
+            <message>
+              <![CDATA[Ship AircraftCarrier with coordinates [G0, G1, G2, G3, G4] is not deployed correctly on the field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipDeploymentException: Ship AircraftCarrier with coordinates [G0, G1, G2, G3, G4] is not deployed correctly on the field
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.shipIsOutOfGrid(ShipDeploymentValidator.java:63)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.lambda$validate$0(ShipDeploymentValidator.java:25)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.validate(ShipDeploymentValidator.java:23)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest.testValidateWithShipOutOfGrid(ShipDeploymentValidatorTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipDeploymentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateWithShipOutOfGrid -->
+        <test-method signature="testValidateWithValidDeployment()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="testValidateWithValidDeployment" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateWithValidDeployment -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testValidateWithWrongShipLength()[pri:0, instance:com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest@333291e3]" started-at="2024-05-20T17:30:42 WEST" name="testValidateWithWrongShipLength" finished-at="2024-05-20T17:30:42 WEST" duration-ms="4" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipDeploymentException">
+            <message>
+              <![CDATA[Ship AircraftCarrier with coordinates [B2] is not deployed correctly on the field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipDeploymentException: Ship AircraftCarrier with coordinates [B2] is not deployed correctly on the field
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.shipLengthIsWrong(ShipDeploymentValidator.java:55)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.lambda$validate$0(ShipDeploymentValidator.java:24)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidator.validate(ShipDeploymentValidator.java:23)
+at com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest.testValidateWithWrongShipLength(ShipDeploymentValidatorTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipDeploymentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateWithWrongShipLength -->
+      </class> <!-- com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest -->
+      <class name="com.interview.coding.battleshipservice.service.KafkaProducerServiceTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testGameCreatedEvent()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="testGameCreatedEvent" finished-at="2024-05-20T17:30:42 WEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameCreatedEvent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testGameCreatedEventException()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="testGameCreatedEventException" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.KafkaProducerException">
+            <message>
+              <![CDATA[javax.resource.ResourceException: not connected]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.KafkaProducerException: javax.resource.ResourceException: not connected
+at com.interview.coding.battleshipservice.service.KafkaProducerService.publish(KafkaProducerService.java:22)
+at com.interview.coding.battleshipservice.service.KafkaProducerServiceTest.testGameCreatedEventException(KafkaProducerServiceTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: javax.resource.ResourceException: not connected
+at com.interview.coding.battleshipservice.service.KafkaProducerService.publish(KafkaProducerService.java:19)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.KafkaProducerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameCreatedEventException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testGameFireEvent()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="testGameFireEvent" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameFireEvent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testGameFireEventException()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="testGameFireEventException" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.KafkaProducerException">
+            <message>
+              <![CDATA[javax.resource.ResourceException: not connected]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.KafkaProducerException: javax.resource.ResourceException: not connected
+at com.interview.coding.battleshipservice.service.KafkaProducerService.publish(KafkaProducerService.java:30)
+at com.interview.coding.battleshipservice.service.KafkaProducerServiceTest.testGameFireEventException(KafkaProducerServiceTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: javax.resource.ResourceException: not connected
+at com.interview.coding.battleshipservice.service.KafkaProducerService.publish(KafkaProducerService.java:27)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.KafkaProducerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameFireEventException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.KafkaProducerServiceTest@498d318c]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.interview.coding.battleshipservice.service.KafkaProducerServiceTest -->
+      <class name="com.interview.coding.battleshipservice.repository.GameRepositoryImplTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetGame()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="testGetGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetGame -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNewGame()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="testNewGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewGame -->
+        <test-method signature="testSaveGame()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="testSaveGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveGame -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateGame()[pri:0, instance:com.interview.coding.battleshipservice.repository.GameRepositoryImplTest@43195e57]" started-at="2024-05-20T17:30:42 WEST" name="testUpdateGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateGame -->
+      </class> <!-- com.interview.coding.battleshipservice.repository.GameRepositoryImplTest -->
+      <class name="com.interview.coding.battleshipservice.controller.EngineeringControllerTest">
+        <test-method signature="testPing()[pri:0, instance:com.interview.coding.battleshipservice.controller.EngineeringControllerTest@479d31f3]" started-at="2024-05-20T17:30:42 WEST" name="testPing" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPing -->
+      </class> <!-- com.interview.coding.battleshipservice.controller.EngineeringControllerTest -->
+      <class name="com.interview.coding.battleshipservice.service.FieldServiceTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testBuildFieldShipsDeployment()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="testBuildFieldShipsDeployment" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildFieldShipsDeployment -->
+        <test-method signature="testBuildWater()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="testBuildWater" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildWater -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testShipSunkPartialHit()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="testShipSunkPartialHit" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShipSunkPartialHit -->
+        <test-method signature="testShipSunkNoHit()[pri:0, instance:com.interview.coding.battleshipservice.service.FieldServiceTest@795cd85e]" started-at="2024-05-20T17:30:42 WEST" name="testShipSunkNoHit" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShipSunkNoHit -->
+      </class> <!-- com.interview.coding.battleshipservice.service.FieldServiceTest -->
+      <class name="com.interview.coding.battleshipservice.service.CoordinateServiceTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.CoordinateServiceTest@402bba4f]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDecodeCoordinateA1()[pri:0, instance:com.interview.coding.battleshipservice.service.CoordinateServiceTest@402bba4f]" started-at="2024-05-20T17:30:42 WEST" name="testDecodeCoordinateA1" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecodeCoordinateA1 -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.CoordinateServiceTest@402bba4f]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDecodeWrongCoordinatePattern()[pri:0, instance:com.interview.coding.battleshipservice.service.CoordinateServiceTest@402bba4f]" started-at="2024-05-20T17:30:42 WEST" name="testDecodeWrongCoordinatePattern" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.WrongCoordinateException">
+            <message>
+              <![CDATA[Coordinate AB is wrong]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.WrongCoordinateException: Coordinate AB is wrong
+at com.interview.coding.battleshipservice.service.CoordinateService.decodeCoordinate(CoordinateService.java:20)
+at com.interview.coding.battleshipservice.service.CoordinateServiceTest.testDecodeWrongCoordinatePattern(CoordinateServiceTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.WrongCoordinateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecodeWrongCoordinatePattern -->
+      </class> <!-- com.interview.coding.battleshipservice.service.CoordinateServiceTest -->
+      <class name="com.interview.coding.battleshipservice.service.GameServiceTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDeployShips()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testDeployShips" finished-at="2024-05-20T17:30:42 WEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeployShips -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDeployShipsAlreadyDeployed()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testDeployShipsAlreadyDeployed" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipsAlreadyDeployedException">
+            <message>
+              <![CDATA[player1's ships are already deployed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipsAlreadyDeployedException: player1's ships are already deployed
+at com.interview.coding.battleshipservice.service.GameService.deployShips(GameService.java:85)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testDeployShipsAlreadyDeployed(GameServiceTest.java:163)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipsAlreadyDeployedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeployShipsAlreadyDeployed -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDeployShipsAndPlayersReady()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testDeployShipsAndPlayersReady" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeployShipsAndPlayersReady -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDeployShipsWithIncorrectShipType()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testDeployShipsWithIncorrectShipType" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.ShipDeploymentException">
+            <message>
+              <![CDATA[Ship YellowSubmarine with coordinates [A1, B1] is not deployed correctly on the field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.ShipDeploymentException: Ship YellowSubmarine with coordinates [A1, B1] is not deployed correctly on the field
+at com.interview.coding.battleshipservice.service.GameService.mapShipsDeployment(GameService.java:109)
+at com.interview.coding.battleshipservice.service.GameService.deployShips(GameService.java:87)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testDeployShipsWithIncorrectShipType(GameServiceTest.java:139)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.IllegalArgumentException: Missing ship factory configuration
+at com.interview.coding.battleshipservice.model.ship.ShipType.lambda$getByTypeName$1(ShipType.java:60)
+at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+at com.interview.coding.battleshipservice.model.ship.ShipType.getByTypeName(ShipType.java:60)
+at com.interview.coding.battleshipservice.service.GameService.mapShipsDeployment(GameService.java:103)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.ShipDeploymentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeployShipsWithIncorrectShipType -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireHit()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireHit" finished-at="2024-05-20T17:30:42 WEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireHit -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireMiss()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireMiss" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireMiss -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireSunkAndGameWon()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireSunkAndGameWon" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireSunkAndGameWon -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireWhenGameIsAlreadyFinished()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireWhenGameIsAlreadyFinished" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.GameFinishedException">
+            <message>
+              <![CDATA[The winner is player2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.GameFinishedException: The winner is player2
+at com.interview.coding.battleshipservice.service.GameService.fire(GameService.java:119)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testFireWhenGameIsAlreadyFinished(GameServiceTest.java:176)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.GameFinishedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireWhenGameIsAlreadyFinished -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireWhenIsNotPlayerTurn()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireWhenIsNotPlayerTurn" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.NotYourTurnException">
+            <message>
+              <![CDATA[player1 is not your turn]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.NotYourTurnException: player1 is not your turn
+at com.interview.coding.battleshipservice.service.GameService.fire(GameService.java:131)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testFireWhenIsNotPlayerTurn(GameServiceTest.java:203)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.NotYourTurnException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireWhenIsNotPlayerTurn -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireWhenIsNotPlayerTurnAndNeedToPingTheComputer()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireWhenIsNotPlayerTurnAndNeedToPingTheComputer" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.NotYourTurnException">
+            <message>
+              <![CDATA[player1 is not your turn]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.NotYourTurnException: player1 is not your turn
+at com.interview.coding.battleshipservice.service.GameService.fire(GameService.java:131)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testFireWhenIsNotPlayerTurnAndNeedToPingTheComputer(GameServiceTest.java:219)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.NotYourTurnException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireWhenIsNotPlayerTurnAndNeedToPingTheComputer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testFireWhenPlayersNotReady()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testFireWhenPlayersNotReady" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.GameStartException">
+            <message>
+              <![CDATA[Players not ready]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.GameStartException: Players not ready
+at com.interview.coding.battleshipservice.service.GameService.fire(GameService.java:123)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testFireWhenPlayersNotReady(GameServiceTest.java:189)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.GameStartException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFireWhenPlayersNotReady -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testJoinFullGame()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testJoinFullGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <exception class="com.interview.coding.battleshipservice.exception.GameJoinException">
+            <message>
+              <![CDATA[Another player is already playing this game]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.interview.coding.battleshipservice.exception.GameJoinException: Another player is already playing this game
+at com.interview.coding.battleshipservice.service.GameService.joinGame(GameService.java:74)
+at com.interview.coding.battleshipservice.service.GameServiceTest.testJoinFullGame(GameServiceTest.java:112)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.interview.coding.battleshipservice.exception.GameJoinException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJoinFullGame -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testJoinGame()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testJoinGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJoinGame -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="init" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testNewGameVsComputer()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testNewGameVsComputer" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewGameVsComputer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testNewGameVsHumanPlayer()[pri:0, instance:com.interview.coding.battleshipservice.service.GameServiceTest@6e171cd7]" started-at="2024-05-20T17:30:42 WEST" name="testNewGameVsHumanPlayer" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewGameVsHumanPlayer -->
+      </class> <!-- com.interview.coding.battleshipservice.service.GameServiceTest -->
+      <class name="com.interview.coding.battleshipservice.controller.GameControllerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeployShips()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="testDeployShips" finished-at="2024-05-20T17:30:42 WEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeployShips -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFire()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="testFire" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFire -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testJoinGame()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="testJoinGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJoinGame -->
+        <test-method signature="testNewGame()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="testNewGame" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewGame -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="setUp" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interview.coding.battleshipservice.controller.GameControllerTest@40ef3420]" started-at="2024-05-20T17:30:42 WEST" name="tearDown" finished-at="2024-05-20T17:30:42 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.interview.coding.battleshipservice.controller.GameControllerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

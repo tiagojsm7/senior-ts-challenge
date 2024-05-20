@@ -1,0 +1,9 @@
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/service/FieldServiceTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/service/GameServiceTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/service/KafkaProducerServiceTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/repository/GameRepositoryImplTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/service/CoordinateServiceTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/util/ShipDeploymentValidatorTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/controller/GameControllerTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/controller/EngineeringControllerTest.java
+/Users/tmendonca/Work/senior-challenge/battleship-service/src/test/java/com/interview/coding/battleshipservice/util/ShipDeploymentBuilder.java

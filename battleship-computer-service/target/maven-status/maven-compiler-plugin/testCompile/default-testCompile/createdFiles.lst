@@ -1,0 +1,5 @@
+com/interview/coding/battleshipcomputerservice/controller/EngineeringControllerTest.class
+com/interview/coding/battleshipcomputerservice/service/BattleshipServiceTest.class
+com/interview/coding/battleshipcomputerservice/controller/KafkaMDBTest.class
+com/interview/coding/battleshipcomputerservice/service/CoordinateServiceTest.class
+com/interview/coding/battleshipcomputerservice/service/BattleshipClientTest.class

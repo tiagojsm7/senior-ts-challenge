@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.366" tests="40" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tmendonca/Work/senior-challenge/battleship-service/target/test-classes:/Users/tmendonca/Work/senior-challenge/battleship-service/target/classes:/Users/tmendonca/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar:/Users/tmendonca/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar:/Users/tmendonca/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/tmendonca/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/tmendonca/.m2/repository/org/mapstruct/mapstruct/1.4.1.Final/mapstruct-1.4.1.Final.jar:/Users/tmendonca/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/tmendonca/.m2/repository/fish/payara/cloud/connectors/kafka/kafka-jca-api/0.6.0/kafka-jca-api-0.6.0.jar:/Users/tmendonca/.m2/repository/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar:/Users/tmendonca/.m2/repository/com/github/luben/zstd-jni/1.4.4-7/zstd-jni-1.4.4-7.jar:/Users/tmendonca/.m2/repository/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar:/Users/tmendonca/.m2/repository/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar:/Users/tmendonca/Work/senior-challenge/battleship-api/target/classes:/Users/tmendonca/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/tmendonca/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/tmendonca/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/tmendonca/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/tmendonca/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/tmendonca/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tmendonca/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/tmendonca/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tmendonca/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tmendonca/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/Users/tmendonca/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tmendonca/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tmendonca/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tmendonca/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tmendonca/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tmendonca/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tmendonca/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PT"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tmendonca/Work/senior-challenge/battleship-service/target/surefire/surefirebooter5091748725324533277.jar /Users/tmendonca/Work/senior-challenge/battleship-service/target/surefire 2024-05-20T17-30-41_492-jvmRun1 surefire3726028623290143231tmp surefire_01989567798439867031tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tmendonca/Work/senior-challenge/battleship-service/target/test-classes:/Users/tmendonca/Work/senior-challenge/battleship-service/target/classes:/Users/tmendonca/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar:/Users/tmendonca/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar:/Users/tmendonca/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/tmendonca/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/tmendonca/.m2/repository/org/mapstruct/mapstruct/1.4.1.Final/mapstruct-1.4.1.Final.jar:/Users/tmendonca/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/tmendonca/.m2/repository/fish/payara/cloud/connectors/kafka/kafka-jca-api/0.6.0/kafka-jca-api-0.6.0.jar:/Users/tmendonca/.m2/repository/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar:/Users/tmendonca/.m2/repository/com/github/luben/zstd-jni/1.4.4-7/zstd-jni-1.4.4-7.jar:/Users/tmendonca/.m2/repository/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar:/Users/tmendonca/.m2/repository/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar:/Users/tmendonca/Work/senior-challenge/battleship-api/target/classes:/Users/tmendonca/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/tmendonca/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/tmendonca/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/tmendonca/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/tmendonca/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/tmendonca/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tmendonca/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/tmendonca/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tmendonca/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tmendonca/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/Users/tmendonca/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tmendonca/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tmendonca/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tmendonca/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tmendonca/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tmendonca/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tmendonca/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tmendonca"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home"/>
+    <property name="testng.dtd.http" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tmendonca/Work/senior-challenge/battleship-service"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/tmendonca/Work/senior-challenge/battleship-service/target/surefire/surefirebooter5091748725324533277.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.18+10"/>
+    <property name="user.name" value="tmendonca"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.18+10"/>
+    <property name="localRepository" value="/Users/tmendonca/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/yq/0wy67dbx4_v0_28sx5xkhhtw0000gn/T/"/>
+    <property name="idea.version" value="2023.1"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="/Users/tmendonca/Work/senior-challenge/battleship-service"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/tmendonca/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.18+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testGetGame" classname="com.interview.coding.battleshipservice.repository.GameRepositoryImplTest" time="0.022"/>
+  <testcase name="testNewGame" classname="com.interview.coding.battleshipservice.repository.GameRepositoryImplTest" time="0"/>
+  <testcase name="testSaveGame" classname="com.interview.coding.battleshipservice.repository.GameRepositoryImplTest" time="0.001"/>
+  <testcase name="testUpdateGame" classname="com.interview.coding.battleshipservice.repository.GameRepositoryImplTest" time="0.001"/>
+  <testcase name="testValidateWithDuplicatedShipType" classname="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest" time="0.002"/>
+  <testcase name="testValidateWithIncorrectShipsNumberDeployed" classname="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest" time="0"/>
+  <testcase name="testValidateWithOverlappingShips" classname="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest" time="0"/>
+  <testcase name="testValidateWithShipOutOfGrid" classname="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest" time="0.001"/>
+  <testcase name="testValidateWithValidDeployment" classname="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest" time="0.001"/>
+  <testcase name="testValidateWithWrongShipLength" classname="com.interview.coding.battleshipservice.util.ShipDeploymentValidatorTest" time="0.005"/>
+  <testcase name="testPing" classname="com.interview.coding.battleshipservice.controller.EngineeringControllerTest" time="0.001"/>
+  <testcase name="testDeployShips" classname="com.interview.coding.battleshipservice.controller.GameControllerTest" time="0.004"/>
+  <testcase name="testFire" classname="com.interview.coding.battleshipservice.controller.GameControllerTest" time="0"/>
+  <testcase name="testJoinGame" classname="com.interview.coding.battleshipservice.controller.GameControllerTest" time="0"/>
+  <testcase name="testNewGame" classname="com.interview.coding.battleshipservice.controller.GameControllerTest" time="0"/>
+  <testcase name="testGameCreatedEvent" classname="com.interview.coding.battleshipservice.service.KafkaProducerServiceTest" time="0.002"/>
+  <testcase name="testGameCreatedEventException" classname="com.interview.coding.battleshipservice.service.KafkaProducerServiceTest" time="0"/>
+  <testcase name="testGameFireEvent" classname="com.interview.coding.battleshipservice.service.KafkaProducerServiceTest" time="0.001"/>
+  <testcase name="testGameFireEventException" classname="com.interview.coding.battleshipservice.service.KafkaProducerServiceTest" time="0"/>
+  <testcase name="testDeployShips" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.006"/>
+  <testcase name="testDeployShipsAlreadyDeployed" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testDeployShipsAndPlayersReady" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testDeployShipsWithIncorrectShipType" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testFireHit" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.003"/>
+  <testcase name="testFireMiss" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testFireSunkAndGameWon" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testFireWhenGameIsAlreadyFinished" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0"/>
+  <testcase name="testFireWhenIsNotPlayerTurn" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testFireWhenIsNotPlayerTurnAndNeedToPingTheComputer" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testFireWhenPlayersNotReady" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testJoinFullGame" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0.001"/>
+  <testcase name="testJoinGame" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0"/>
+  <testcase name="testNewGameVsComputer" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0"/>
+  <testcase name="testNewGameVsHumanPlayer" classname="com.interview.coding.battleshipservice.service.GameServiceTest" time="0"/>
+  <testcase name="testDecodeCoordinateA1" classname="com.interview.coding.battleshipservice.service.CoordinateServiceTest" time="0"/>
+  <testcase name="testDecodeWrongCoordinatePattern" classname="com.interview.coding.battleshipservice.service.CoordinateServiceTest" time="0"/>
+  <testcase name="testBuildFieldShipsDeployment" classname="com.interview.coding.battleshipservice.service.FieldServiceTest" time="0"/>
+  <testcase name="testBuildWater" classname="com.interview.coding.battleshipservice.service.FieldServiceTest" time="0"/>
+  <testcase name="testShipSunkNoHit" classname="com.interview.coding.battleshipservice.service.FieldServiceTest" time="0"/>
+  <testcase name="testShipSunkPartialHit" classname="com.interview.coding.battleshipservice.service.FieldServiceTest" time="0"/>
+</testsuite>
