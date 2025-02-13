@@ -51,16 +51,14 @@ public class ShipDeploymentValidator {
         // Use a set to account for overlapping coordinates
         boolean isLengthWrong = new HashSet<>(ship.getCoordinates()).size() != ship.getShipType().getShipLength();
         if (isLengthWrong) {
-            throw new ShipDeploymentException(ship.getShipType().getShipTypeName(),
-                ship.getCoordinates().stream().map(Coordinate::getValue).collect(toList()));
+            throwException(ship);
         }
     }
 
     private void shipIsOutOfGrid(Ship ship) {
         boolean isShipOutOfGrid = ship.getCoordinates().stream().anyMatch(ShipDeploymentValidator::coordinateIsOutOfGrid);
         if (isShipOutOfGrid) {
-            throw new ShipDeploymentException(ship.getShipType().getShipTypeName(),
-                ship.getCoordinates().stream().map(Coordinate::getValue).collect(toList()));
+            throwException(ship);
         }
     }
 
@@ -73,10 +71,27 @@ public class ShipDeploymentValidator {
 
     private void shipIsNotContiguous(Ship ship) {
         boolean shipIsNotContiguous = !isHorizontal(ship) && !isVertical(ship);
+
         if (shipIsNotContiguous) {
-            throw new ShipDeploymentException(ship.getShipType().getShipTypeName(),
-                ship.getCoordinates().stream().map(Coordinate::getValue).collect(toList()));
+            throwException(ship);
         }
+
+        List<Coordinate> coordinates = ship.getCoordinates();
+        for (int i = 0; i <  coordinates.size()-1; i++){
+
+            if (!(coordinates.get(i).getRow()+1 == coordinates.get(i+1).getRow())){
+                throwException(ship);
+            }
+
+            if (!(coordinates.get(i).getColumn()+1 == coordinates.get(i+1).getColumn())){
+                throwException(ship);
+            }
+        }
+    }
+
+    private static void throwException(Ship ship) {
+        throw new ShipDeploymentException(ship.getShipType().getShipTypeName(),
+            ship.getCoordinates().stream().map(Coordinate::getValue).collect(toList()));
     }
 
     private boolean isHorizontal(Ship ship) {

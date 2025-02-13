@@ -56,6 +56,33 @@ public class FieldServiceTest {
     }
 
     @Test
+    public void testShipSunk() {
+        List<Coordinate> coordinates = shipsDeployment.get(0).getCoordinates();
+
+        for (Coordinate coordinate : coordinates){
+            field[coordinate.getRow()][coordinate.getColumn()].hit();
+        }
+
+        boolean isShipSunk = fieldService.isShipSunk(field, shipsDeployment.get(0));
+        assertTrue(isShipSunk);
+    }
+
+
+    @Test
+    public void testAllShipsSunk() {
+        for (Ship ship : shipsDeployment){
+            for (Coordinate coordinate : ship.getCoordinates()){
+                field[coordinate.getRow()][coordinate.getColumn()].hit();
+            }
+        }
+
+        boolean areAllShipSunk = fieldService.allShipsSunk(field);
+        assertTrue(areAllShipSunk);
+    }
+
+
+
+    @Test
     public void testBuildFieldShipsDeployment() {
         shipsDeployment.forEach(ship -> {
             List<Coordinate> coordinates = ship.getCoordinates();
